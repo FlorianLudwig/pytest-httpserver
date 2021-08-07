@@ -2,12 +2,12 @@
 
 from setuptools import setup, find_packages
 
-
+VERSION = "1.0.1"
 DESCRIPTION = open("README.md").read()
 
 setup(
     name="pytest_httpserver",
-    version="1.0.1",
+    version=VERSION,
     url="https://www.github.com/csernazs/pytest-httpserver",
     packages=find_packages(),
     author="Zsolt Cserna",
